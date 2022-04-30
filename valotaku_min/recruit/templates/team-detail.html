@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}募集チームの新規作成{% endblock %}
+
+{% block contents %}
+<h2>募集チームの新規作成</h2>
+<p>チーム名：{{ team_detail.team_name }}  ランク帯：{{ team_detail.rank }}</p>
+{% endblock %}

@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'top.apps.TopConfig',
+    'recruit.apps.RecruitConfig'
 ]
 
 MIDDLEWARE = [
